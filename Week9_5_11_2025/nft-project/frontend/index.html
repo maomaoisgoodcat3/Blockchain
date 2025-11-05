@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🖼️ NFT Dashboard</h1>
+
+    <button id="connectBtn" class="primary">🔗 Kết nối MetaMask</button>
+
+    <div class="info">
+      <p><strong>Địa chỉ ví:</strong> <span id="walletAddress">Chưa kết nối</span></p>
+      <p><strong>Số dư ETH:</strong> <span id="ethBalance">-</span></p>
+      <p><strong>Số NFT:</strong> <span id="nftBalance">-</span></p>
+    </div>
+
+    <hr />
+
+    <h2>🎨 Quản lý NFT</h2>
+    <button id="refreshBtn">🔄 Làm mới dữ liệu</button>
+
+    <hr />
+
+    <h2>🧾 Lịch sử giao dịch NFT</h2>
+    <ul id="txHistory" class="history">
+      <li>Chưa có giao dịch nào.</li>
+    </ul>
+  </div>
+
+  
+
+  <script src="app.js"></script>
+</body>
+
+</html>
