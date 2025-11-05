@@ -11,4 +11,5 @@ Bước 4+5: Giao dịch và hiển thị History
 ![alt text](<Transfer3.png>)<br>
 ![alt text](<Transfer4.png>)<br>
 ![alt text](<History1.png>)<br>
-![alt text](<History2.png>)
+![alt text](<History2.png>)<br>
+![alt text](<IPFSimg.png>)<br>
